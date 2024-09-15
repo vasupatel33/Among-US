@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1561790554, guid: c88ab7b37c4f350242674d2efd621c19, type: 3}
+  m_Name: AmongUs2DRendererData
+  m_EditorClassIdentifier:
+  debugShaders:
+    debugReplacementPS: {fileID: 4800000, guid: 824ee07bb7ce12b4295afed69bd53f6e, type: 3}
+    hdrDebugViewPS: {fileID: 4800000, guid: 2360086ae3b369047b777916edc208be, type: 3}
+  m_RendererFeatures: []
+  m_RendererFeatureMap:
+  m_UseNativeRenderPass: 0
+  m_TransparencySortMode: 0
+  m_TransparencySortAxis: {x: 0, y: 1, z: 0}
+  m_HDREmulationScale: 1
+  m_LightRenderTextureScale: 0.5
+  m_LightBlendStyles:
+  - name: Blend Style 0
+    maskTextureChannel: 0
+    blendMode: 1
+  - name: Blend Style 1
+    maskTextureChannel: 0
+    blendMode: 1
+  - name: Blend Style 2
+    maskTextureChannel: 0
+    blendMode: 1
+  - name: Blend Style 3
+    maskTextureChannel: 0
+    blendMode: 1
+  m_UseDepthStencilBuffer: 1
+  m_UseCameraSortingLayersTexture: 0
+  m_CameraSortingLayersTextureBound: -1
+  m_CameraSortingLayerDownsamplingMethod: 0
+  m_MaxLightRenderTextureCount: 16
+  m_MaxShadowRenderTextureCount: 1
+  m_ShapeLightShader: {fileID: 4800000, guid: 0372136dc909a9d429099b494f11f204, type: 3}
+  m_ShapeLightVolumeShader: {fileID: 4800000, guid: 3a3c033cd0d54e348a9c0407e0e7db85, type: 3}
+  m_PointLightShader: {fileID: 4800000, guid: 3b7a23277b2752c42b21b6de7d1f05f3, type: 3}
+  m_PointLightVolumeShader: {fileID: 4800000, guid: d41cf8b9609bc144297ec96b0f33c890, type: 3}
+  m_CoreBlitShader: {fileID: 4800000, guid: 92fce20f7ec79c5438cf34c0ba8754d6, type: 3}
+  m_BlitHDROverlay: {fileID: 4800000, guid: 16218bd44376c1d449c3b3d170d0210b, type: 3}
+  m_CoreBlitColorAndDepthPS: {fileID: 4800000, guid: e1e7164995e174e4bad60a621a221bc2, type: 3}
+  m_SamplingShader: {fileID: 4800000, guid: 6ea9f2c7899c9ea45abcb3c1f9fa8bec, type: 3}
+  m_ProjectedShadowShader: {fileID: 4800000, guid: a19728931a02c9a42b8cc1c798c9afb7, type: 3}
+  m_SpriteShadowShader: {fileID: 4800000, guid: 90d8b6523867272469a1330d9619fa1c, type: 3}
+  m_SpriteUnshadowShader: {fileID: 4800000, guid: fdc4c4b77a68bb44c9d572212dc0094b, type: 3}
+  m_GeometryUnshadowShader: {fileID: 4800000, guid: 46689ed04baf748459c01190ddcee12a, type: 3}
+  m_FallbackErrorShader: {fileID: 4800000, guid: c318a0eef5ec3f741b688373793caeaa, type: 3}
+  m_PostProcessData: {fileID: 11400000, guid: ebb13ffe131dfda44b1c975a9ab495bb, type: 2}
+  m_FallOffLookup: {fileID: 2800000, guid: 4fabd8d93cd716143baef2f8422a989f, type: 3}
